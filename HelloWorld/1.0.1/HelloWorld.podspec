@@ -21,6 +21,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.resource_bundles={'HelloWorld'=>['HelloWorld/Resources/*']}
-s.vendored_frameworks='HelloWorld/HelloWorld.xcframework'
-  s.dependency 'XYCategory'
+  s.vendored_frameworks='HelloWorld/HelloWorld.xcframework'
 end
